@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/port/static/css/main.57db253b.css",
+    "main.js": "/port/static/js/main.d07216f0.js",
+    "static/js/453.d4722a7d.chunk.js": "/port/static/js/453.d4722a7d.chunk.js",
+    "static/media/photo.jpg": "/port/static/media/photo.f1a07047ff9883ea6807.jpg",
+    "static/media/projeto_samsung.png": "/port/static/media/projeto_samsung.4591e1dec93b77f43599.png",
+    "static/media/vscode.png": "/port/static/media/vscode.a13ad7ce4fdfd8e353e5.png",
+    "static/media/tailwind.png": "/port/static/media/tailwind.ae40dbca0686d9cfdca0.png",
+    "static/media/react.png": "/port/static/media/react.2a0cac33f155e4a27216.png",
+    "index.html": "/port/index.html",
+    "main.57db253b.css.map": "/port/static/css/main.57db253b.css.map",
+    "main.d07216f0.js.map": "/port/static/js/main.d07216f0.js.map",
+    "453.d4722a7d.chunk.js.map": "/port/static/js/453.d4722a7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57db253b.css",
+    "static/js/main.d07216f0.js"
+  ]
+}
