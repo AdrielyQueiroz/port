@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-class {
+    @apply text-base;
+  }
+
+  @media (max-width: 640px) {
+    .custom-class {
+      @apply text-sm text-red-500;
+    }
+  }
+}
+
+body {
+    background-color:#080808f1;
+    font-family: 'Raleway';
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
