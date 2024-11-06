@@ -31,15 +31,15 @@ const Home = () => {
             aria-expanded={menuOpen}
             aria-controls="nav-list"
           >
-            <FaAlignJustify className='md:hidden'/>
+            <FaAlignJustify />
           </button>
         </div>
   
         {/* Lista de navegação */}
         <ul
           id="nav-list"
-          className={`flex-col sm:flex sm:flex-row justify-start sm:justify-center items-center space-y-1 sm:space-y-0 sm:space-x-10
-          text-indigo-300 sm:text-sm text-lg md:text-xl font-semibold tracking-wide ${menuOpen ? 'flex absolute left-2 top-14 rounded shadow-lg' : 'hidden'}`}
+          className={`flex-col sm:flex sm:flex-row justify-start sm:justify-center items-center space-y-0 sm:space-y-0 sm:space-x-10
+          text-indigo-300 sm:text-sm text-xs md:text-xl font-semibold tracking-wide ${menuOpen ? 'flex absolute left-0 top-14' : 'hidden'}`}
           aria-hidden={!menuOpen}
         >
           <li className="hover:text-indigo-400">
@@ -66,4 +66,4 @@ const Home = () => {
   );
 }
 
-export default Home;;
+export default Home;
