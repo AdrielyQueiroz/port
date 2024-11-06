@@ -13,6 +13,7 @@ const Projects = () => {
              animate={{ y: [0, 10, 0] }}
              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
              className="w-auto m-7">
+              
         <section id="projects" className='border border-violet-400 rounded mt-10 md:mt-52 p-10 
          transform transition-transform duration-300 hover:scale-105 hover:opacity-90 transition-opacity'>
           <h2 className='uppercase text-indigo-300 font-bold border-b-2 w-52 border-violet-400 text-4xl mb-10 pb-2'>Projetos</h2>
